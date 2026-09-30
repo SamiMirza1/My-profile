@@ -1,0 +1,393 @@
+* {
+    /* Prevents padding from inflating box widths */
+}
+body {
+  margin: 0px;
+cursor:all;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden; 
+}
+.navbar{
+    background-color:#0A121F;
+    height:7rem;
+  over-flow:hidden;
+}
+.service{
+  display:flex;
+  justify-content:space-between;
+   width:100%;
+}
+.nav-links{
+    display:flex;
+      justify-content: center;
+      list-style-type: none;
+}
+.nav{
+    padding:15px;
+    
+}
+a{
+     text-decoration: none;
+      color:#FFFFFF;
+    /* font-size: clamp(0.9rem, 4.5vw, 1.4rem); */
+    font-size: 1.5vw;
+      transition: color 0.3 easy-in;
+}
+a:hover{
+    color:#3B9EFF;
+}
+.name{
+  
+    color:whitesmoke;
+    padding-left:1.7rem;
+    font-size: clamp(1rem, 4.5vw, 2rem);
+    font-family:sans-serif;
+    font-weight:bold;
+    margin-top:1.7rem;
+}
+@media(max-width:768px){
+    .name{
+        display:block;
+    }
+}
+.change{
+    color:#3B9EFF;
+}
+.night-mode{
+   justify-content: right;
+  
+}
+
+.icon_dark{
+    color:whitesmoke;
+    margin-top:2.3rem;
+    margin-right:2.5rem;
+    transition: color 0.3s easy;
+}
+.icon_dark:hover{
+    color:#3B9EFF;
+
+}
+
+
+
+
+/* home page */
+
+.home{
+    
+    background-image:     linear-gradient(rgba(0, 8, 15, 0.5), rgba(1, 16, 30, 0.5)), 
+    url(nature.jpeg);
+    background-repeat:no-repeat;
+      background-size: cover; 
+    background-position:center;
+   min-height:50vh;
+    margin-top:-32px;
+    height:25vh;
+    over-flow:hidden;
+    
+}
+.info{
+    padding-left:1.5rem;
+    width:50%;
+}
+.fullname{
+    color:#FFFFFF;
+    padding-top:2rem;
+    
+    font-size:2rem;
+    font-weight:bold;
+    margin-bottom:-0.8rem;
+    
+}
+.fullname span{
+color:#3B9EFF;
+}
+.job{
+   background-image: linear-gradient(to right, rgb(244, 240, 240) , #000f1e );
+
+    -webkit-background-clip: text;
+    background-clip: text;
+     -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    font-weight:bold;
+    font-size:1rem;
+
+}
+.introduce{
+    color:whitesmoke;
+    margin-bottom:2.1rem;
+    
+}
+
+.btnhome{
+    background-color: transparent;
+    width:8.125rem;
+    height:3.1rem;
+    border:none;
+    border:solid #3B9EFF 0.1rem;
+    border-radius:15px;
+    color:#3B9EFF;
+    padding:0.2rem;
+    margin:0.6rem;
+    transition: color 100s easy;
+    
+}
+.all{
+   display:flex;
+    justify-content:space-between;
+    gap:3.7rem;
+}
+.myimage{
+    position:relative;
+   width: 80%;
+  height: 80%;     /* Your fixed section height */
+    z-index: 1; 
+  overflow: hidden; 
+}
+.my{
+   position: absolute;
+inset-inline-start: 40px;
+inset-block-start:440px;
+  max-width:60%;
+  height:auto;
+  
+    
+}
+
+
+
+
+
+.btnhome:hover{
+background:#3B9EFF;
+color:whitesmoke;
+transition: color 100s easy;
+}
+ .list{
+    width:55%;
+    display:flex;
+    justify-content:space-between;
+ 
+ }
+.app{
+    padding-top:1rem;
+    list-style-type:none;
+    display:flex;
+    justify-content:space-between;
+    gap:1rem;
+    
+}
+.icon{
+    color:whitesmoke;
+}
+
+/* aboout me */
+
+.about-me{
+    padding-left:1.7rem;
+    background:#101622;
+    margin-top:-1.7rem;
+    padding-top:0.6rem;
+    
+}
+.line{
+    height:0.1rem;
+    background:#2090F5;
+    width:2.3rem;
+    border-radius:1rem;
+    justify-content:flex-start;
+    margin-left:-1px;
+    margin-bottom:-0.6rem;
+    margin-top:1.5rem;
+}
+.me{
+    color:whitesmoke;
+    font-weight:bold;
+    font-size:1.5rem;
+
+}
+.half{
+ width:50%;
+}
+.image{
+    width:50%;
+   
+}
+.profileimg{
+    width:70%;
+    height:70%;
+    justify-content:center;
+    border-radius:1rem;
+}
+.container{
+    display:flex;
+    justify-content:space-between;
+    gap:50px;
+}
+.intrduce-me{
+    width:70%;
+    color:whitesmoke;
+   
+}
+.location{
+    list-style-type: none; 
+    display:flex;
+    color:white;
+    gap:1.2rem;
+    margin-top: 2.1rem;
+    margin-left:-3.2rem;
+}
+.ico{
+    color:#FFFFFF;
+}
+
+.download{
+    margin-top:1.9rem;
+    margin-left:3.1rem;
+    background-color: transparent;
+    width:8.125rem;
+    height:1.8rem;
+    border:none;
+    border:solid #3B9EFF 3px;
+    border-radius:15px;
+    color:#3B9EFF;
+    transition: color 100s easy;
+    
+}
+.download:hover{
+background:#3B9EFF;
+color:whitesmoke;
+transition: color 100s easy;
+}
+/* my skill */
+
+.skill-box{
+    padding-left:25px;
+    background:#0D131F;
+    margin-top:-25px;
+    padding-top:10px;
+}
+.line1{
+      height:0.03%;
+    background:#2090F5;
+    width:2.7rem;
+    border-radius:1rem;
+    justify-content:flex-start;
+    margin-left:-1px;
+    margin-bottom:-10px;
+    margin-top:25px;
+}
+
+
+ .my-skill{
+    color:whitesmoke;
+    font-weight:bold;
+    font-size:1.5rem;
+ }
+ .contaner_boxes{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    padding-bottom:25px;
+    padding-top:15px;
+    color:#FFFFFF;
+ }
+ .box-border{
+    border:solid #0D131F 3px;
+    border-radius:15px;
+    padding:15px;
+    background:#0D131F;
+ }
+
+
+ /* projects */
+
+.project_box{  padding-left:25px;
+    background:#101622;
+    margin-top:-25px;
+    padding-top:10px;
+
+}
+
+.project{
+color:whitesmoke;
+    font-weight:bold;
+    font-size:1.5rem;
+ 
+}
+ .top{
+    width:100%;
+    border-radius:15px;
+ }
+ .top_midea{
+    width:25%;
+    height:80%;
+    background:#0D131F;
+    border:solid #0D131F 3px;
+    color:whitesmoke;
+    border-radius:15px;
+    
+ }
+ .top_list{
+    padding-left:10px;
+    list-style-type:none;
+    display:flex;
+    justify-content:flex-start;
+    gap:25px;
+    margin-left:-10px;
+ }
+ 
+ /* contact-me */
+ .contact-me{
+    padding-left:25px;
+    background:#0D131F;
+    margin-top:-5px;
+    padding-top:10px;
+    color:whitesmoke;
+ }
+ .heding{
+color:whitesmoke;
+    font-weight:bold;
+    font-size:22px;
+ }
+ .contanier-contact{
+    display:flex;
+    justify-content:space-between;
+    gap:20px;
+ }
+/* 1. Stack everything inside the form vertically */
+.red {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Adds clean spacing between rows */
+    max-width: 500px; /* Optional: Stops the form from getting too wide */
+    margin: 0 auto; 
+    margin-right:70px; 
+    margin-bottom:50px;
+}
+
+/* 2. Target the text area and button to span the full width */
+.red textarea, 
+.red button {
+    width: 100%;
+    box-sizing: border-box; /* Ensures padding doesn't break the layout */
+}
+
+/* 3. Style your textarea to look clean */
+#message {
+    min-height: 100px; /* Gives the message box a good starting height */
+    resize: vertical;  /* Allows users to pull it down but not break layout width */
+}
+
+/* 4. Style your submit button using your blue color */
+.submit {
+    background-color: #3B9EFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
