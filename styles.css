@@ -374,10 +374,12 @@ margin-left:20px;
 
 
 .download{
+    margin:150px 0 15px 0;
     align-items:left;
     margin-left:30%;
     text-align: center; 
-align-items:center;
+    align-items:center;
+    padding:6px;
 }
         
 
@@ -428,6 +430,13 @@ align-items:center;
     background:#0D131F;
  }
 
+ @media  (max-width:768px){
+.box-border{
+    font-size:0.7rem;
+}
+    
+ }
+
 
  /* projects */
 
@@ -464,6 +473,25 @@ color:whitesmoke;
     justify-content:flex-start;
     gap:25px;
     margin-left:-10px;
+ }
+ @media  (max-width:768px){
+    .project{
+        margin-top:4px;
+        font-size:1.4rem;
+    }
+    .top_midea{
+        margin-top:-3px;
+        width:36%;
+         font-size:0.7rem;
+         
+    }
+.top_list{
+    font-size:0.7rem;
+    padding-left:8px;
+}
+.top_list h{
+    padding-left:8px;
+}
  }
  
  /* contact-me */
