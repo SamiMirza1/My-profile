@@ -82,6 +82,7 @@ a:hover{
 }
 @media (max-width:768px){
     .nav-links{
+        display:none;
    font-size:0.6rem;
    color:#2090F5;
    background-color: rgba(255, 255, 255, 0.2); 
@@ -97,6 +98,9 @@ a:hover{
     border-bottom-left-radius:15px;
     
     }
+     .nav-links.active {
+        display: flex; 
+      }
     .nav{
         padding:3px;
     }
@@ -222,6 +226,36 @@ transition: color 100s easy;
 .icon{
     color:whitesmoke;
 }
+
+@media (max-width:678px){
+    .info{
+        width:100%;
+    }
+   .home .fullname{
+     font-size:1.75rem;
+     padding-top:-100px;
+     
+    }
+    .introduce{
+        width:70%;
+        margin-bottom:40px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* aboout me */
 
